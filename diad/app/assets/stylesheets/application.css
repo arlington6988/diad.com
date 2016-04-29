@@ -14,10 +14,25 @@
  *= require_self
  */
 
-body {
+.headblack {
 	background-color:  black;
 }
 
 .navbar-nav > li > a {
-   line-height: 88px;
+   line-height: 50px;
+}
+
+#genlinks a:visited, #genlinks a:active, #genlinks a:link  { 
+   text-decoration: none;
+   padding: 0px 1% 0px;
+   color: #A0A0A0
+}
+#genlinks a:hover {
+   text-decoration: none;
+   padding: 0px 1% 0px;
+   color: #680000
+}
+
+.navbargrey {
+   background-color: #080808
 }

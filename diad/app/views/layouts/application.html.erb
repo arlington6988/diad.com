@@ -5,18 +5,26 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top headblack" role="navigation">
    <div class="navbar-header">
    <a class="navbar-brand" href="#">
        <%= image_tag("Logoandname.png") %>
       </a>
    </div>
-    <ul class="nav navbar-nav">
-   <li class="active"><a href="#">News<span class="sr-only">(current)</span></a></li>
+   <div id="genlinks">
+   <div class="container">
+   <ul class="nav nav-bar navbar-nav"> 
+   <li ><a href="#" >News</a>
+        <a href="#" >Tour</a>
+        <a href="#" >Music</a>
+        <a href="#" >Photos</a>
+        <a href="#" >Store</a></li>
    </ul>
+   </div>
+   </div>
   </nav>
 </head>
-<body>
+<body class="navbargrey">
 
 <%= yield %>
 
