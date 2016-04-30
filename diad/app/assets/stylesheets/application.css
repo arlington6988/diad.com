@@ -15,7 +15,9 @@
  */
 
 .navbar-nav {
-    font-family: 'BlackWidow', fantasy }
+    font-family: 'usis_1949regular', 'fantasy';
+    font-size: small;
+}
 
 .headblack {
 	background-color:  black;
@@ -28,7 +30,8 @@
 
 .navbar-right {
     float: right;
-    padding: 10px;;
+    padding: 20px;
+    font-size: medium;
 }
 
 #genlinks a:visited, #genlinks a:active, #genlinks a:link  { 

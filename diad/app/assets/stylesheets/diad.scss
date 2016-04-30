@@ -9,12 +9,14 @@ body {
 }
 
 @font-face {
-  font-family: 'BlackWidow';
-  src: url(font-path('BlackWidow.eot'));
-  src: url(font-path('BlackWidow.eot?#iefix')) format('embedded-opentype'),
-  url(font-path('BlackWidow.woff')) format('woff'),
-  url(font-path('BlackWidow.ttf')) format('truetype'),
-  url(font-path('BlackWidow.svg#dafont')) format('svg');
+  font-family: 'usis_1949regular';
+  src: asset_url('usis_1949-webfont.eot');
+  src: asset_url('usis_1949-webfont.eot?#iefix') format('embedded-opentype'),
+  asset_url('usis_1949-webfont.woff2') format('woff2'),
+  asset_url('usis_1949-webfont.woff') format('woff'),
+  asset_url('assets/fonts/usis_1949-webfont.ttf') format('truetype'),
+  asset_url('usis_1949-webfont.svg#usis_1949regular') format('svg');
   font-weight: normal;
   font-style: normal;
+
 }
