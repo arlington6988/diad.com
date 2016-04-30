@@ -14,12 +14,21 @@
  *= require_self
  */
 
+.navbar-nav {
+    font-family: 'BlackWidow', fantasy }
+
 .headblack {
 	background-color:  black;
 }
 
 .navbar-nav > li > a {
    line-height: 50px;
+}
+
+
+.navbar-right {
+    float: right;
+    padding: 10px;;
 }
 
 #genlinks a:visited, #genlinks a:active, #genlinks a:link  { 
@@ -36,3 +45,11 @@
 .navbargrey {
    background-color: #080808
 }
+
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-youtube:hover, .fa-instagram:hover, .fa-spotify:hover, .fa-instagram:hover {
+    color: darkred;
+}
+
+
+

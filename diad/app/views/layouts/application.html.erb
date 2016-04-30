@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DeathisaDialogue</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <title>DeathisaDialogue | Official Site</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'favicon.png' %>
+
   <nav class="navbar navbar-default navbar-fixed-top headblack" role="navigation">
    <div class="navbar-header">
    <a class="navbar-brand" href="#">
@@ -13,12 +16,18 @@
    </div>
    <div id="genlinks">
    <div class="container">
-   <ul class="nav nav-bar navbar-nav"> 
+   <ul class="nav nav-bar navbar-nav">
    <li ><a href="#" >News</a>
         <a href="#" >Tour</a>
         <a href="#" >Music</a>
         <a href="#" >Photos</a>
-        <a href="#" >Store</a></li>
+        <a href="#" >Store</a>
+     <i class="fa fa-facebook navbar-right"></i>
+     <i class="fa fa-twitter navbar-right"></i>
+     <i class="fa fa-spotify navbar-right"></i>
+     <i class="fa fa-instagram navbar-right"></i>
+     <i class="fa fa-youtube navbar-right"></i>
+   </li>
    </ul>
    </div>
    </div>

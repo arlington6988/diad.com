@@ -8,3 +8,13 @@ body {
   padding-top: 100;
 }
 
+@font-face {
+  font-family: 'BlackWidow';
+  src: url(font-path('BlackWidow.eot'));
+  src: url(font-path('BlackWidow.eot?#iefix')) format('embedded-opentype'),
+  url(font-path('BlackWidow.woff')) format('woff'),
+  url(font-path('BlackWidow.ttf')) format('truetype'),
+  url(font-path('BlackWidow.svg#dafont')) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
