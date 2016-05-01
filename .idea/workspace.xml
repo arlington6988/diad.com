@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2548a012-8a52-4419-a029-d134241b2edb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-12a8b77fc04f3e3a5157a485d79168b1ec4aefc8baf73809e2230f38ea05e083.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-12a8b77fc04f3e3a5157a485d79168b1ec4aefc8baf73809e2230f38ea05e083.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-29f8688af4fd3040942223cbe959654cc122080b0a10daaa6f05dcbfd3bb27a8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-29f8688af4fd3040942223cbe959654cc122080b0a10daaa6f05dcbfd3bb27a8.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-3ceaea744ea077e41802a19aeeb00cd823735b619ad46ce60dc5a2de9b123608.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-3ceaea744ea077e41802a19aeeb00cd823735b619ad46ce60dc5a2de9b123608.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-6c959d6fc4264237e5a13f0e324dc2896cb5665a61d41bcf6c60cee40463f8cd.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-6c959d6fc4264237e5a13f0e324dc2896cb5665a61d41bcf6c60cee40463f8cd.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-d4a72b1a6ceb4b8833fa98e46d00308471d1bf8240559f5e117f137b09ad8d44.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-d4a72b1a6ceb4b8833fa98e46d00308471d1bf8240559f5e117f137b09ad8d44.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-e7f12fb7a3a7d068286d24886ea116dc9b86d4859d0609aab24986ee6013bb1a.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-e7f12fb7a3a7d068286d24886ea116dc9b86d4859d0609aab24986ee6013bb1a.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-ea2723bf14a851996fa1fb5e70eca4f5c0fa9bdd7bb0eb6bd618eefbd3812711.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diad/public/assets/application-ea2723bf14a851996fa1fb5e70eca4f5c0fa9bdd7bb0eb6bd618eefbd3812711.css.gz" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diad/public/assets/application-a0cf18fe32e9650569e2044e136f2eb5251f35ff95747b55cea3e7c38086eb92.js.gz" afterPath="$PROJECT_DIR$/diad/public/assets/application-a0cf18fe32e9650569e2044e136f2eb5251f35ff95747b55cea3e7c38086eb92.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diad/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/diad/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diad/app/assets/stylesheets/diad.scss" afterPath="$PROJECT_DIR$/diad/app/assets/stylesheets/diad.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diad/public/assets/.sprockets-manifest-67bd5037dd405abbe13ddf2f0f90a705.json" afterPath="$PROJECT_DIR$/diad/public/assets/.sprockets-manifest-67bd5037dd405abbe13ddf2f0f90a705.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diad/app/views/diad/index.html.erb" afterPath="$PROJECT_DIR$/diad/app/views/diad/index.html.erb" />
     </list>
     <ignored path="diad.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/diad/app/assets/stylesheets/application.css">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/diad/app/views/diad/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="165">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -98,6 +82,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diad/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="67" column="68" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -111,6 +105,7 @@
         <option value="$PROJECT_DIR$/diad/app/assets/stylesheets/application.css.less" />
         <option value="$PROJECT_DIR$/diad/app/assets/stylesheets/diad.scss" />
         <option value="$PROJECT_DIR$/diad/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/diad/app/views/diad/index.html.erb" />
       </list>
     </option>
   </component>
@@ -150,7 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,6 +262,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diad" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,6 +390,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -533,12 +532,13 @@
       <workItem from="1461964741760" duration="8909000" />
       <workItem from="1461977321406" duration="396000" />
       <workItem from="1462030992384" duration="2550000" />
+      <workItem from="1462128886104" duration="7390000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11855000" />
+    <option name="totallyTimeSpent" value="19245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -579,6 +579,51 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/diad/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diad/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diad/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diad/app/assets/stylesheets/diad.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diad/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diad/app/assets/images/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/diad/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -705,14 +750,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/diad/app/assets/stylesheets/application.css.less" />
-    <entry file="file://$PROJECT_DIR$/diad/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diad/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -729,10 +766,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/diad/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/diad/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="403">
+          <caret line="67" column="68" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diad/app/views/diad/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>

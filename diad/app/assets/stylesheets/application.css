@@ -54,5 +54,25 @@
     color: darkred;
 }
 
+.jumbotron-sized {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'usis_1949regular', 'fantasy'; color: lightgray;
+    background-color: #282828
+}
 
 
+.btn-sharp, .btn-sharp:visited, .btn-sharp:focus, .btn-sharp:active {
+    border-radius:0;
+    border: 2px solid darkred;
+    background: none;
+    padding: 12px 22px;
+}
+
+.btn-sharp:hover {
+    background-color: darkred;
+    border: 2px solid darkred;
+}
