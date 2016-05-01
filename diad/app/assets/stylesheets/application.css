@@ -46,7 +46,7 @@
 }
 
 .navbargrey {
-   background-color: #080808
+    background-image: url('blackwall2.jpg');
 }
 
 
@@ -61,7 +61,7 @@
     margin-left: 10%;
     margin-right: 10%;
     font-family: 'usis_1949regular', 'fantasy'; color: lightgray;
-    background-color: #282828
+    background: rgba(40, 40, 40, 0.55)
 }
 
 
