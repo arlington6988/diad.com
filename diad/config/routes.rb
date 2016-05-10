@@ -4,7 +4,12 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'diad#index'
-
+  get 'diad/news' => 'diad#news'
+  get 'diad/tour' => 'diad#tour'
+  get 'diad/music' => 'diad#music'
+  get 'diad/videos' => 'diad#videos'
+  get 'diad/store' => 'diad#store'
+  get 'diad/photos' => 'diad#photos'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
