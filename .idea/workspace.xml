@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2548a012-8a52-4419-a029-d134241b2edb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/diad/app/views/diad/music.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/diad/app/views/diad/news.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/diad/app/views/diad/photos.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/diad/app/views/diad/store.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/diad/app/views/diad/tour.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/diad/app/views/diad/videos.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diad/app/controllers/diad_controller.rb" afterPath="$PROJECT_DIR$/diad/app/controllers/diad_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diad/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/diad/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diad/config/routes.rb" afterPath="$PROJECT_DIR$/diad/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diad/app/views/diad/index.html.erb" afterPath="$PROJECT_DIR$/diad/app/views/diad/index.html.erb" />
     </list>
     <ignored path="diad.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diad/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diad/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="41" column="19" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -62,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/diad/app/views/diad/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="345">
+              <caret line="23" column="141" selection-start-line="23" selection-start-column="141" selection-end-line="23" selection-end-column="141" />
               <folding />
             </state>
           </provider>
@@ -100,7 +101,6 @@
         <option value="$PROJECT_DIR$/diad/config/application.rb" />
         <option value="$PROJECT_DIR$/diad/app/assets/stylesheets/application.css.less" />
         <option value="$PROJECT_DIR$/diad/app/assets/stylesheets/diad.scss" />
-        <option value="$PROJECT_DIR$/diad/app/views/diad/index.html.erb" />
         <option value="$PROJECT_DIR$/diad/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/diad/app/views/diad/news.html.erb" />
         <option value="$PROJECT_DIR$/diad/app/controllers/diad_controller.rb" />
@@ -111,6 +111,7 @@
         <option value="$PROJECT_DIR$/diad/app/views/diad/videos.html.erb" />
         <option value="$PROJECT_DIR$/diad/app/views/diad/store.html.erb" />
         <option value="$PROJECT_DIR$/diad/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/diad/app/views/diad/index.html.erb" />
       </list>
     </option>
   </component>
@@ -556,17 +557,17 @@
       <workItem from="1462030992384" duration="2550000" />
       <workItem from="1462128886104" duration="12866000" />
       <workItem from="1462834394018" duration="1715000" />
-      <workItem from="1462836123683" duration="3906000" />
+      <workItem from="1462836123683" duration="5476000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30342000" />
+    <option name="totallyTimeSpent" value="31912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24596465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -850,14 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diad/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diad/app/views/diad/news.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -877,14 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diad/app/views/diad/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -936,6 +921,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diad/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diad/app/views/diad/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="141" selection-start-line="23" selection-start-column="141" selection-end-line="23" selection-end-column="141" />
           <folding />
         </state>
       </provider>
