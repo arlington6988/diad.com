@@ -80,3 +80,19 @@
     background-color: darkred;
     border: 2px solid darkred;
 }
+
+
+.btn-email, .btn-email:visited, .btn-email:focus, .btn-email:active {
+    background-color: darkred;
+    font-family: 'usis_1949regular', 'fantasy'; color: lightgray;
+    font-size: small;
+}
+
+.btn-email:hover {
+    background-color: black;
+}
+
+.form-email {
+    font-family: 'usis_1949regular', 'fantasy';
+    font-size: small;
+}
