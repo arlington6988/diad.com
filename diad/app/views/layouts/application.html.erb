@@ -14,12 +14,10 @@
        <%= image_tag("Logoandname.png") %>
       </a>
    </div>
-    <form class="nav-inline form-inline" role="search">
-      <div class="form-control-sm">
-        <input type="text" class="form-control-sm form-email" placeholder="Email Updates">
-      <button type="submit" class="btn btn-default btn-sm btn-email">Submit</button>
-      </div>
-    </form>
+    <%= form_for :fan, url: 'http://www.fanbridge.com/signup/1.5/submit?userid=67920&email=test@test.com', authenticity_token: false, :method => :post, :class => "nav-inline form-inline" do |f| %>
+        <%= f.text_field :email, :placeholder => "Email Updates", class: "form-control-sm form-email" %>
+        <%= f.submit "Submit", class: "btn btn-default btn-sm btn-email" %>
+    <% end %>
    <div id="genlinks">
    <div class="container">
    <ul class="nav nav-bar navbar-nav">
