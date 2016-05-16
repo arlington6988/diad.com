@@ -14,7 +14,7 @@
        <%= image_tag("Logoandname.png") %>
       </a>
    </div>
-    <%= form_tag('http://www.fanbridge.com/signup/1.5/submit?userid=67920', authenticity_token: false, method: :post, remote: true, class: "nav-inline form-inline") do %>
+    <%= form_tag('http://www.fanbridge.com/signup/1.5/submit?userid=67920', id: 'fanbridgesignup', authenticity_token: false, method: :post, remote: true, class: "nav-inline form-inline") do %>
         <%= text_field_tag 'firstname', nil, placeholder: 'First Name', size: 8, class: 'form-controle-xsm form-email' %>
         <%= text_field_tag 'lastname', nil, placeholder: 'Last Name', size: 8, class: 'form-controle-xsm form-email' %>
         <%= text_field_tag 'email', nil, placeholder: 'Email', size: 20, class: 'form-control-xsm form-email' %>
