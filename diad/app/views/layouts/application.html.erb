@@ -32,10 +32,13 @@
    <div id="genlinks">
    <div class="container">
    <ul class="nav nav-bar navbar-nav">
-   <li ><%= link_to "News", diad_news_path %>
+   <li ><%= link_to "News", onclick: "$('a[href='#top']').click(function() {
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
+            return false;
+            });" %>
         <%= link_to "Tour", diad_tour_path %>
         <%= link_to "Music", diad_music_path %>
-        <%= link_to "Videos", diad_videos_path %>
+        <%= link_to "Videos", :anchor => 'video' %>
         <%= link_to "Photos", diad_photos_path %>
         <%= link_to "Store", diad_store_path %>
      <%= link_to '', "https://www.facebook.com/deathisadialogue", :class => "fa fa-facebook navbar-right", :target => '_blank' %>
