@@ -19,8 +19,16 @@
         <%= text_field_tag 'lastname', nil, placeholder: 'Last Name', size: 8, class: 'form-controle-xsm form-email' %>
         <%= text_field_tag 'email', nil, placeholder: 'Email', size: 20, class: 'form-control-xsm form-email' %>
         <%= text_field_tag 'zip', nil, placeholder: 'Zipcode', size: 6, class: 'form-control-xsm form-email' %>
-        <%= submit_tag "Get Updates!", onclick: "return alertify.alert('Thanks for signing up!');", class: 'btn btn-default btn-sm btn-email' %>
+        <%= submit_tag "Get Updates!", onclick: "alertify.success('Got it! We will be in touch.', function() {},'popup1');", class: 'btn btn-default btn-sm btn-email' %>
     <% end %>
+    <script>
+      $("#fanbridgesignup").bind("ajax:send", function(e){
+        $("#firstname").val('');
+        $("#lastname").val('');
+        $("#email").val('');
+        $("#zip").val('');
+      });
+    </script>
    <div id="genlinks">
    <div class="container">
    <ul class="nav nav-bar navbar-nav">
