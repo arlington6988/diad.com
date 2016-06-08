@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require alertify
+//= require jquery.jplayer.min
 //= require_tree .
