@@ -110,3 +110,12 @@
     font-family: 'fantasy'; color: lightgray;
 
 }
+
+.player {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'usis_1949regular', 'fantasy'; color: lightgray;
+    background: rgba(40, 40, 40, 0.55)
+}
+
