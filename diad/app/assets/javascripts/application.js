@@ -14,4 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require alertify
+//= require cassette-tape-ui
+//= require soundmanager2
 //= require_tree .
