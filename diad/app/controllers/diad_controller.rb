@@ -12,6 +12,9 @@ class DiadController < ApplicationController
   def music
   end
 
+  def musicsimple
+  end
+
   def store
   end
 

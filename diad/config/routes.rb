@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'diad/news' => 'diad#news'
   get 'diad/tour' => 'diad#tour'
   get 'diad/music' => 'diad#music'
+  get 'diad/musicsimple' => 'diad#musicsimple'
   get 'diad/videos' => 'diad#videos'
   get 'diad/store' => 'diad#store'
   get 'diad/photos' => 'diad#photos'

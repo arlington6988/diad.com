@@ -1,4 +1,4 @@
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
   <%= stylesheet_link_tag    'cassette-tape-ui', 'cassette-tape-ui-blur', 'cassette-tape-ui-blur-nojs', 'diadmusic', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'soundmanager2', 'cassette-tape-ui' %>
@@ -7,7 +7,17 @@
 <!--<audio controls="controls", class="player">
    <source src="<%= audio_path 'beep2.mp3'%>" type="audio/mpeg" />
 </audio> -->
-
+<table>
+  <tr>
+  <div class="fontstyle fonttop"><%= link_to 'Return to Main', root_path %></div>
+  <div class="fontstyle fontright">Trouble Playing the tape?</div>
+  </tr>
+  <tr>
+<div class="fontstyle fontright">Use Chrome or</div>
+    </tr>
+  <tr>
+<div class="fontstyle fontright"><%= link_to 'Go Here', diad_musicsimple_path %> for the simple player.</div>
+  </tr>
 <div id="tape-loader">
   <div class="spinner-box">
     <div class="spinner"></div>
@@ -65,13 +75,14 @@
 
   <!-- editable URL-based label for the demo, you don't need to use this -->
   <form id="tape-form" action="." method="get" onsubmit="return false">
-    <input class="label" name="tape_url" placeholder="Type an MP3 URL here ..." title="Click to edit and provide your own MP3 URL" value="DIAD - Call of the Siren (Samples)" data-default-value="Chill With Schill: Mixtape Demo" />
+    <input class="label" readonly="true" name="tape_url" placeholder="Type an MP3 URL here ..." title="Click to edit and provide your own MP3 URL" value="DIAD - Call of the Siren (Samples)" data-default-value="Chill With Schill: Mixtape Demo" />
   </form>
 
   <div class="aqua controls">
     <div class="bd">
       <ul>
-        <li><a href="#" title="play/pause" class="play">&#9668;</a></li>
+<!--        <li><a href="#" title="play/pause" class="play">&#9668;</a></li> -->
+        <li><%= link_to "&#9668;", "#", :title => "play/pause", :class => "play" %></li>
         <li><a href="#" title="rewind" class="rew">&#171;</a></li>
         <li><a href="#" title="fast-forward" class="ffwd">&#187;</a></li>
         <li><a href="#" title="stop" class="stop">&#9632;</a></li>

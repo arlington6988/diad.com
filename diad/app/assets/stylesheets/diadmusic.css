@@ -1,7 +1,18 @@
 /*
 *= require_self
+*= require diadnoboot
 */
 
 body {
     background-image: url('blackwall2.jpg');
 }
+
+.fontstyle {
+    font-family: 'usis_1949regular', 'fantasy';
+    font-size: medium;
+}
+
+.fontright {
+    text-align: right;
+}
+

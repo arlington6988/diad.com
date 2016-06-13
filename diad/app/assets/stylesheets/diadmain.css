@@ -114,8 +114,9 @@
 
 .player {
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-right: 10%;
+    width: 50%; auto;
     font-family: 'usis_1949regular', 'fantasy'; color: lightgray;
     background: rgba(40, 40, 40, 0.55)
 }

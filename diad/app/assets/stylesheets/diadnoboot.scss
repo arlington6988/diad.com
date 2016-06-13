@@ -1,0 +1,23 @@
+// Place all the styles related to the diad controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'alertify.core';
+@import 'alertify.default';
+
+body {
+  padding-top: 100;
+}
+
+@font-face {
+  font-family: 'usis_1949regular';
+  src: asset_url('usis_1949-webfont.eot');
+  src: asset_url('usis_1949-webfont.eot?#iefix') format('embedded-opentype'),
+  asset_url('usis_1949-webfont.woff2') format('woff2'),
+  asset_url('usis_1949-webfont.woff') format('woff'),
+  asset_url('assets/fonts/usis_1949-webfont.ttf') format('truetype'),
+  asset_url('usis_1949-webfont.svg#usis_1949regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}

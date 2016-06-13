@@ -1,0 +1,57 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <title>DeathisaDialogue | Official Site</title>
+  <%= stylesheet_link_tag    'application', 'diadmain', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'favicon.png' %>
+
+  <nav class="navbar navbar-default navbar-fixed-top headblack" role="navigation">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://www.deathisadialogue.com">
+        <%= image_tag("Logoandname.png") %>
+      </a>
+    </div>
+    <%= form_tag('http://www.fanbridge.com/signup/1.5/submit?userid=67920', id: 'fanbridgesignup', authenticity_token: false, method: :post, remote: true, class: "nav-inline form-inline") do %>
+        <%= text_field_tag 'firstname', nil, placeholder: 'First Name', size: 8, class: 'form-controle-xsm form-email' %>
+        <%= text_field_tag 'lastname', nil, placeholder: 'Last Name', size: 8, class: 'form-controle-xsm form-email' %>
+        <%= text_field_tag 'email', nil, placeholder: 'Email', size: 20, class: 'form-control-xsm form-email' %>
+        <%= text_field_tag 'zip', nil, placeholder: 'Zipcode', size: 6, class: 'form-control-xsm form-email' %>
+        <%= submit_tag "Get Updates!", onclick: "alertify.success('Got it! We will be in touch.', function() {},'popup1');", class: 'btn btn-default btn-sm btn-email' %>
+    <% end %>
+    <script>
+      $("#fanbridgesignup").bind("ajax:send", function(e){
+        $("#firstname").val('');
+        $("#lastname").val('');
+        $("#email").val('');
+        $("#zip").val('');
+      });
+    </script>
+    <div id="genlinks">
+      <div class="container">
+        <ul class="nav nav-bar navbar-nav">
+          <li ><%= link_to "News", root_path %>
+            <%= link_to "Tour", diad_tour_path %>
+            <%= link_to "Music", diad_music_path %>
+            <%= link_to "Videos", :anchor => 'video' %>
+            <%= link_to "Photos", diad_photos_path %>
+            <%= link_to "Store", diad_store_path %>
+            <%= link_to '', "https://www.facebook.com/deathisadialogue", :class => "fa fa-facebook navbar-right", :target => '_blank' %>
+            <%= link_to '', "https://www.twitter.com/deathisadialog", :class=> "fa fa-twitter navbar-right", :target => '_blank' %>
+            <%= link_to '', "https://play.spotify.com/album/5LfJ9J6lwySoakYxnlqXOH", :class=> "fa fa-spotify navbar-right", :target => '_blank' %>
+            <%= link_to '', "https://www.instagram.com/jasonleediad", :class=> "fa fa-instagram navbar-right", :target => '_blank' %>
+            <%= link_to '', "https://www.youtube.com/user/Deathisadialogue/videos", :class=> "fa fa-youtube navbar-right", :target => '_blank' %>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</head>
+</html>
+
+<body>
+  <audio controls="controls", class="player">
+   <source src="<%= audio_path 'beep2.mp3'%>" type="audio/mpeg" />
+  </audio>
+</body>
