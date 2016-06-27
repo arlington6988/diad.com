@@ -49,40 +49,41 @@
   </nav>
 </head>
 <body class="navbargrey">
-<div class="jumbotron jumbotron-sized">
+<div class="jumbotron jumbotron-sized jumboalign">
   <div class="bg">
   </div>
-  <div class="content">
-  <h1>Coming Soon: Call of the Siren</h1>
-  <p>Thats right folks, the boys have been working in a secret underground location on the new 11-song LP for what seems like forever.
-  Promised to be their best work yet, physical distribution will be available from the official store and digital copies on Itunes this summer.</p>
+  <div class="content container">
+    <%= image_tag("albummockup2.png", :class => 'albumautoscale') %>
+    <h1>Coming Soon: Call of the Siren</h1>
   </div>
   <div id="video"></div>
 </div>
 <div class="jumbotron jumbotron-sized jumboalign">
   <div class="bg">
   </div>
+  <div>Lyric video submitted by a fan for a song off Call of the Siren.</div>
   <div class="content">
-    <iframe width="854" height="480" src="https://www.youtube.com/embed/cifrbUkVrTk" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2AV8_IgRGK4" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
 <div class="jumbotron jumbotron-sized jumboalign">
   <div class="bg">
   </div>
+  <div>Official music video for Low Lies Lenore from the Offended Youth album.</div>
+  <div class="content">
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/cifrbUkVrTk" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="jumbotron jumbotron-sized jumboalign">
+  <div class="bg">
+  </div>
+  <div>Live footage of Death is a Dialogue playing with Hawthorne Heights at Masquerade.</div>
   <div class="content">
     <iframe width="854" height="480" src="https://www.youtube.com/embed/KjCG0owbvFg" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
-
-<div class="jumbotron jumbotron-sized jumboalign">
-  <div class="bg">
-  </div>
-  <div class="content">
-    <iframe width="854" height="480" src="https://www.youtube.com/embed/XqAmCIWBEr4" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
-
 
 <%= yield %>
 
