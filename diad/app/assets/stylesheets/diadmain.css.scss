@@ -16,12 +16,14 @@
 
 .navbar-nav {
     font-family: 'usis_1949regular', 'fantasy';
-    font-size: small;
+    font-size: 12pt;
 }
 
 .headblack {
-	background-color:  black;
+	background-color:  black; opacity: .87;
+    border-top-color: black;
 }
+
 
 .navbar-nav > li > a {
    line-height: 50px;
@@ -31,7 +33,7 @@
 .navbar-right {
     float: right;
     padding: 20px;
-    font-size: medium;
+    font-size: 22px;
 }
 
 
@@ -47,6 +49,15 @@
    text-decoration: none;
    padding: 0px 1% 0px;
    color: #680000
+}
+
+#footerlinks a:visited, #footerlinks a:active, #footerlinks a:link  {
+  text-decoration: none;
+  color: #A0A0A0;
+}
+#footerlinks a:hover {
+  text-decoration: none;
+  color: #680000
 }
 
 .navbargrey {
@@ -127,3 +138,23 @@
     background: rgba(40, 40, 40, 0.55)
 }
 
+.modal-footer {
+  clear: both;
+  height: 150px;
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  font-family: 'usis_1949regular', 'fantasy';
+  font-size: 14px;
+  color:#fff;
+  border-top-color: black;
+  background-color: black; opacity: .85
+}
+
+.textright {
+  float: right;
+}
+
+.textleft {
+  float: left;
+}

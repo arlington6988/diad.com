@@ -88,5 +88,14 @@
 <%= yield %>
 
 </body>
-<footer class="modal-footer" >Text for footer goes here</footer>
+<div id="footerlinks">
+<footer class="modal-footer" >
+  <div class="container">
+   <span>Book a Show=></span><span class="textright container"><=Press Stuff</span><br>
+<%= mail_to 'arlington6988@yahoo.com', 'US Booking', subject: "US:ENTERDATE" %><span class="textright container">Lets try</span><br>
+<%= mail_to 'arlington6988@yahoo.com', 'EU Booking', subject: "EU:ENTERDATE" %><span class="textright container">Here we go</span><br>
+
+  </div>
+  </div
+</footer>
 </html>
