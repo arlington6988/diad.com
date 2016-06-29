@@ -1,6 +1,6 @@
 class DiadController < ApplicationController
-
   def index
+    @shows = Show.all
   end
 
   def news
