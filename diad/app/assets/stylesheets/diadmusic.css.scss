@@ -3,8 +3,13 @@
 *= require diadnoboot
 */
 
-body {
-    background-image: url('Blackwallmusic.png');
+
+.backgroundmusic {
+    background-image: asset_url('Blackwallmusic.png');
+}
+
+.blackwall {
+    background-image: asset_url('blackwall2.jpg');
 }
 
 .fontstyle {
