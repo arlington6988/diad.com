@@ -1,7 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a6b61c1-3bfe-4b1e-b21c-a24d717a464e" name="Default" comment="" />
+    <list default="true" id="3a6b61c1-3bfe-4b1e-b21c-a24d717a464e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/.sprockets-manifest-67bd5037dd405abbe13ddf2f0f90a705.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/Blackwallmusic-141cc7c28dbdf785cd2d8b8ba9dfe26782b1b1291aa9d1d2966aa31882dbfc94.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/Blackwallmusic-848a159271c1c6ca22c8d4a9840907b6209d8cf5066760f7b92a3484ce94a9fc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-3a69e0c3bc68ba3ccd8de276662a194d09e2d105aee332826bec68ba620ca177.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-3a69e0c3bc68ba3ccd8de276662a194d09e2d105aee332826bec68ba620ca177.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-5bf3d913a3c5fedee5a7941c5146f4bce3061b338f9832255c898edaf6e3b698.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-5bf3d913a3c5fedee5a7941c5146f4bce3061b338f9832255c898edaf6e3b698.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-a096645ba58b25536aad67a1c1362ab85f782a5b7610efb99c7aa25e29ecb1d1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-a096645ba58b25536aad67a1c1362ab85f782a5b7610efb99c7aa25e29ecb1d1.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-c97295156e898cbd20ae53b9bc68b3b0cc929c6b15c0852cd9335c37f5ba1cbe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-c97295156e898cbd20ae53b9bc68b3b0cc929c6b15c0852cd9335c37f5ba1cbe.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/beep2-ee256e043f487de4c36df7f3960eaa42e87e09c16a947c7413f430465094ca7d.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/beep7-0fa61e966c4726c7056e3fd8d9ac8198eaae639e1e33c6f3785288e8ecb59687.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-29684bc7eca2a73ee1cc4a85041f6d2e24c93d85f1fd27350cd5d459c00acba3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-29684bc7eca2a73ee1cc4a85041f6d2e24c93d85f1fd27350cd5d459c00acba3.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-57ad032cff0cd1a01ec30e9ea9ce0f1e566371fa5dcd441202a57767374939ad.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-57ad032cff0cd1a01ec30e9ea9ce0f1e566371fa5dcd441202a57767374939ad.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-7686536dff99f86758a9de9b00134ce80940acf44b5f001c35a3787f0ed5107d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-7686536dff99f86758a9de9b00134ce80940acf44b5f001c35a3787f0ed5107d.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-blur-f93705ba04e7fae40c6a2ea38de6a83cd54e12d2885343ea723f860e5eb66f95.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-blur-f93705ba04e7fae40c6a2ea38de6a83cd54e12d2885343ea723f860e5eb66f95.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-blur-nojs-f7d4d01ff808e0f843a56ba8dcf94c8ad410950f268a24b7a8e6d38881718a67.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-blur-nojs-f7d4d01ff808e0f843a56ba8dcf94c8ad410950f268a24b7a8e6d38881718a67.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-ff5b9291a47dfacd9aa312f7e58f9a8ed8a3bab3412d5de321579c9fcc493594.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-ff5b9291a47dfacd9aa312f7e58f9a8ed8a3bab3412d5de321579c9fcc493594.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmain-12c2feeba3455a65684d3d2e81d7d2d318e85da073c1d534b729d76f7a3b9df7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmain-12c2feeba3455a65684d3d2e81d7d2d318e85da073c1d534b729d76f7a3b9df7.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmain-136f0363630695b5267609c7da121b21c51c1e17de935bd3efe0cdc38f890e92.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmain-136f0363630695b5267609c7da121b21c51c1e17de935bd3efe0cdc38f890e92.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmain-b2e7fe6a8c5639669e79a21b8e38e030cf3bf363586098cd24275574f432a3f3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmain-b2e7fe6a8c5639669e79a21b8e38e030cf3bf363586098cd24275574f432a3f3.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmain-eac99c50166cb911a0563c0dac68acb54a57a188d5d7d0da097a9b25a4d913ad.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmain-eac99c50166cb911a0563c0dac68acb54a57a188d5d7d0da097a9b25a4d913ad.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmain-f052c8158eebccac00cd1454e1a5fe9d01a24ef5fe262abb2a48378d83164b97.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmain-f052c8158eebccac00cd1454e1a5fe9d01a24ef5fe262abb2a48378d83164b97.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmainmusic-16b8dcaeaadb712c2de71d5ea4dbf5fc655034e82c61b6bd1074ce4daf12db0c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmainmusic-16b8dcaeaadb712c2de71d5ea4dbf5fc655034e82c61b6bd1074ce4daf12db0c.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmainmusic-cc7b9381d08efc75dd5a2727c8bb9ba6793e3eab0f6d13246dd4281b7672d1b6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmainmusic-cc7b9381d08efc75dd5a2727c8bb9ba6793e3eab0f6d13246dd4281b7672d1b6.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmusic-49ff16cab116c9465150b5dc4b239b1484ac78428720c924d2edc45153c5e017.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmusic-49ff16cab116c9465150b5dc4b239b1484ac78428720c924d2edc45153c5e017.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmusic-4da580c55840b2e427a6c35ac2892512c100cbc8e86d8500e1428f5db40d5064.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmusic-4da580c55840b2e427a6c35ac2892512c100cbc8e86d8500e1428f5db40d5064.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmusic-5ee4ae7dd82fd0771d15c40c742d90e7d3530cb05e5bcb93ece718c0d113616e.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/diadmusic-5ee4ae7dd82fd0771d15c40c742d90e7d3530cb05e5bcb93ece718c0d113616e.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jplayer.pink.flag-1e09168ffc9f27b889465811a92cd58e69312a54ebcdf54dc87210ab98249762.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jplayer.pink.flag-c1655be408733dabe3361d7efc783623f4bc823ce88eb140db44199e2a678525.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jplayer.pink.flag-c1655be408733dabe3361d7efc783623f4bc823ce88eb140db44199e2a678525.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jplayer.pink.flag.seeking-3195428c9080d64a99ee6d191a46ac9395f26e043ab7fed38691c1e218f5ac13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jplayer.pink.flag.video.play-142302fd3017e2fa8d076e8c7615b82a3412c66d9fd41fec7059362108a28e1c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/soundmanager2-70188c7f7e5cf7c69dcd8054737c27303965851a37bdcb15f63e1fed50ffbe95.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/soundmanager2-70188c7f7e5cf7c69dcd8054737c27303965851a37bdcb15f63e1fed50ffbe95.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/soundmanager2-f15985533337036f5d214d1359148ebbb133870a1dd354b0a0bad20201959d4a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/soundmanager2-f15985533337036f5d214d1359148ebbb133870a1dd354b0a0bad20201959d4a.js.gz" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-3ab0ee18e4b218f09d293c64495d94d08dbe5216606210535219e28d99d058a6.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-3ab0ee18e4b218f09d293c64495d94d08dbe5216606210535219e28d99d058a6.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-5a456688ac0c5da27a697697cbafbbeba51d867ad8bc66c7ca1cec060bac6874.css.gz" afterPath="$PROJECT_DIR$/public/assets/cassette-tape-ui-5a456688ac0c5da27a697697cbafbbeba51d867ad8bc66c7ca1cec060bac6874.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/cassette-tape-ui-8bc3073171b21c2dcf2b4628e496e9437d8a8b1aae69e5b18b76116e1bc6adff.js.gz" afterPath="$PROJECT_DIR$/public/assets/cassette-tape-ui-8bc3073171b21c2dcf2b4628e496e9437d8a8b1aae69e5b18b76116e1bc6adff.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/soundmanager2-a0d9b9aa483b9c389c3b0f1fddbae4791a0e205a3c5791f038316fae224c22e9.js.gz" afterPath="$PROJECT_DIR$/public/assets/soundmanager2-a0d9b9aa483b9c389c3b0f1fddbae4791a0e205a3c5791f038316fae224c22e9.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/diad.iml" afterPath="$PROJECT_DIR$/.idea/diad.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/diadmain.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/diadmain.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/diad_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/diad_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/diad/store.html.erb" afterPath="$PROJECT_DIR$/app/views/diad/store.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/passenger.3000.pid" afterPath="$PROJECT_DIR$/passenger.3000.pid" />
+    </list>
     <ignored path="diad.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -30,25 +104,15 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/diad/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="diad_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/diad_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diad.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diad.scss">
+      <file leaf-file-name="store.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/diad/store.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -57,8 +121,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <file leaf-file-name="tour.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/diad/tour.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -67,21 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cassette-tape-ui-blur.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/cassette-tape-ui-blur.css">
+      <file leaf-file-name="videos.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/diad/videos.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diadmusic.css.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmusic.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,21 +151,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="musicsimple.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/diad/musicsimple.html.erb">
+      <file leaf-file-name="items.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/diad/items.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="music.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/diad/music.html.erb">
+      <file leaf-file-name="musicsimple.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/diad/musicsimple.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/diad/news.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,8 +184,18 @@
       <file leaf-file-name="diadmain.css.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmain.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photos.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/diad/photos.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,25 +203,30 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/assets/stylesheets/cassette-tape-ui.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/diadnoboot.scss" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/diadmain.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/cassette-tape-ui.js.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/soundmanager2.js.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/diadmainmusic.css.scss" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
         <option value="$PROJECT_DIR$/app/views/diad/music.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/diadmain.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/diad/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/diad/musicsimple.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/diadmusic.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/diadmusic.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/diad/store.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/diad_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/diadmain.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/diad/items.html.erb" />
       </list>
     </option>
   </component>
@@ -163,14 +242,14 @@
     <option name="width" value="1271" />
     <option name="height" value="702" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -188,6 +267,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -422,9 +503,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,8 +512,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
       <recent name="$PROJECT_DIR$/app/views/diad" />
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Production: diad">
@@ -593,15 +672,21 @@
       <workItem from="1467159647981" duration="5371000" />
       <workItem from="1467165173164" duration="2176000" />
       <workItem from="1467582241313" duration="11014000" />
+      <workItem from="1467668689762" duration="9714000" />
+      <workItem from="1467854200988" duration="4523000" />
+      <workItem from="1467859688273" duration="3055000" />
+      <workItem from="1467939906565" duration="9186000" />
+      <workItem from="1468097804305" duration="114000" />
+      <workItem from="1468097935833" duration="1318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48453000" />
+    <option name="totallyTimeSpent" value="76363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="66" width="1271" height="702" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25570416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -615,6 +700,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="179" y="194" width="1071" height="502" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -639,43 +725,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/soundmanager2.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2952">
-          <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/cassette-tape-ui.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20628">
-          <caret line="1146" column="54" selection-start-line="1146" selection-start-column="54" selection-end-line="1146" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmain.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/diad/music.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,19 +761,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmusic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmusic.css" />
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2952">
           <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20628">
           <caret line="1146" column="54" selection-start-line="1146" selection-start-column="54" selection-end-line="1146" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,19 +840,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmusic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmusic.css" />
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diad.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,15 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,25 +879,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmain.css" />
-    <entry file="file://$PROJECT_DIR$/app/views/diad/news.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/diad/photos.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadnoboot.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,7 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,9 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,23 +918,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="820" column="0" selection-start-line="820" selection-start-column="0" selection-end-line="820" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmainmusic.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmainmusic.css.scss" />
     <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="150" selection-start-line="10" selection-start-column="150" selection-end-line="10" selection-end-column="150" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,11 +933,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diad.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmusic.css" />
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/cassette-tape-ui-blur.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/diad_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmusic.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/diad/music.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/diad/store.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/diad/tour.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/diad/videos.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -961,66 +1013,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmain.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/diad/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/diad/music.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/diad/musicsimple.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmusic.css">
+    <entry file="file://$PROJECT_DIR$/app/views/diad/news.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/cassette-tape-ui-blur.css">
+    <entry file="file://$PROJECT_DIR$/app/views/diad/photos.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmusic.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/diad_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/diadmain.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/diad/items.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
           <folding />
         </state>
       </provider>

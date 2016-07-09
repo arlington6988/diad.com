@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <title>DeathisaDialogue | Official Site</title>
+  <%= stylesheet_link_tag    'application', 'diadmain', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'favicon.png' %>
+</head>
+<body class="navbargrey">
+      <% @items.each do |i| %>
+<!--     <div class="fontset"> -->
+              <div class="container-fluid col-md-4">
+                <div class="row text-sm-center fontset">
+
+                  <h4><%= i.name %></h4>
+                  <img src="http://placehold.it/200x200" alt="..." class="img-responsive"/>
+                  <p><%= i.description %><br>
+                  $<%= i.price %></p>
+                <%= form_tag("/search", method: "get", :class => 'centerform fieldfont') do %>
+                    <%= number_field(:q, "Quantity", value: "1") %><br>
+                    <%= submit_tag("Add To Cart", :class => 'btn-store btn-sm fontset') %>
+                <% end %>
+                </div>
+              </div>
+            <!--  <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+              <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button> -->
+<!--     </div> -->
+      <% end %>
+</body>
+</html>

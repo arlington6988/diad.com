@@ -19,6 +19,35 @@
     font-size: 12pt;
 }
 
+.fontset {
+  font-family: 'usis_1949regular', 'fantasy'; color: whitesmoke;
+  font-size: 10pt;
+
+}
+
+.fieldfont {
+  font-family: 'usis_1949regular', 'fantasy'; color: black;
+}
+
+.centerform {
+  margin: auto;
+  display: inline-block;
+}
+
+.container-fluid {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.maxstore {
+  max-width: 28%;
+}
+
+.formmaxwidth {
+}
+
 .headblack {
 	background-color:  black; opacity: .87;
     border-top-color: black;
@@ -60,11 +89,11 @@
   color: #680000
 }
 
-/*.navbargrey {
+.navbargrey {
     background-image: asset_url('blackwall2.jpg');
 }
 
-*/
+
 
 .backgroundmusic {
     background-image: asset_url('Blackwallmusic.png');
@@ -111,7 +140,15 @@
     padding: 12px 22px;
 }
 
-.btn-sharp:hover {
+.btn-store, .btn-store:visited, .btn-store:focus, .btn-store:active {
+  border-radius:0;
+  border: 2px solid darkred;
+  background: none;
+  align-self: center;
+/*  padding: 12px 22px; */
+}
+
+.btn-sharp:hover, .btn-store:hover {
     background-color: darkred;
     border: 2px solid darkred;
 }

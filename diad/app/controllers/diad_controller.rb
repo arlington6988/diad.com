@@ -1,6 +1,7 @@
 require 'useragent'
 
 class DiadController < ApplicationController
+
   def index
     @shows = Show.all
   end
@@ -22,6 +23,10 @@ class DiadController < ApplicationController
   end
 
   def store
+  end
+
+  def items
+    @items = Item.all
   end
 
   def videos
