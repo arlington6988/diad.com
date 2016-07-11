@@ -1,6 +1,7 @@
 require 'useragent'
 
 class DiadController < ApplicationController
+  before_action :checklogin, only: :items
 
   def index
     @shows = Show.all
@@ -32,7 +33,11 @@ class DiadController < ApplicationController
   def videos
   end
 
-
+  def checklogin
+    unless current_user 
+      redirect_to log_in_path
+    end
+  end
 
 
 end

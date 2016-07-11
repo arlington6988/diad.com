@@ -29,10 +29,6 @@
   font-family: 'usis_1949regular', 'fantasy'; color: black;
 }
 
-.centerform {
-  margin: auto;
-  display: inline-block;
-}
 
 .container-fluid {
   margin-top: 5%;
@@ -53,9 +49,14 @@
     border-top-color: black;
 }
 
-
 .navbar-nav > li > a {
    line-height: 50px;
+}
+
+.topcorner {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 
@@ -93,6 +94,15 @@
     background-image: asset_url('blackwall2.jpg');
 }
 
+.topspace {
+  margin-top: 5%;
+}
+
+.redtext {
+  font-family: 'usis_1949regular', 'fantasy'; color: red;
+  font-size: 10pt;
+}
+
 
 
 .backgroundmusic {
@@ -118,6 +128,15 @@
     margin-right: 10%;
     font-family: 'usis_1949regular', 'fantasy'; color: lightgray;
     background: rgba(40, 40, 40, 0.55)
+}
+
+.jumbotron-small {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background: rgba(40, 40, 40, 0.55)
 }
 
 .jumboalign {

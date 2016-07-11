@@ -1,0 +1,37 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <title>DeathisaDialogue | Official Site</title>
+  <%= stylesheet_link_tag    'application', 'diadmain', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'favicon.png' %>
+
+</head>
+
+<div class="jumbotron-small">
+  <body class="navbargrey topspace fontset">
+  <div class="text-sm-center">
+    <% if flash[:alert] %>
+        <div class="notice redtext"><%= flash[:alert] %></div>
+    <% end %>
+    <tr>Already have an account? Log-in! or <%= link_to "Login", log_in_path %></tr>
+    </div>
+        <%=form_for(User.new) do |f| %>
+      <div class="form-group">
+        <%=f.label :name %>
+        <%=f.text_field :name, class: "form-control fieldfont" %><br>
+        <%=f.label :email %>
+        <%=f.text_field :email, class: "form-control fieldfont" %><br>
+        <%=f.label :password %>
+        <%=f.password_field :password, class: "form-control fieldfont" %><br>
+        <%=f.label :password_confirmation %>
+        <%=f.password_field :password_confirmation, class: "form-control fieldfont" %><br>
+        <%=f.submit "Sign Up", class: "btn-store btn-sm fontset", method: :get %>
+    <%end%>
+    </div>
+  </body>
+</div>
+
+
+</html>

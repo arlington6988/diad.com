@@ -1,0 +1,28 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <title>DeathisaDialogue | Official Site</title>
+  <%= stylesheet_link_tag    'application', 'diadmain', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'favicon.png' %>
+
+</head>
+
+<div class="jumbotron-sized">
+<body class="navbargrey topspace text-sm-center fontset">
+  <div>
+    <% if flash[:alert] %>
+        <div class="notice redtext"><%= flash[:alert] %></div>
+    <% end %>
+    <tr>Already have an account? Log-in! or <%= link_to "Create", new_user_path %> one now.</tr>
+  <%=form_tag(log_in_path, :class => "fieldfont") do%>
+  <%=label_tag :email %>
+  <%=text_field_tag :email %>
+  <%=label_tag :password %>
+  <%=password_field_tag :password %>
+  <%=submit_tag("Log in", class: "btn-store btn-sm fontset") %>
+  <%end%>
+</body>
+</div>
+</html>

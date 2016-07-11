@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160514235009) do
+ActiveRecord::Schema.define(version: 20160710170022) do
 
   create_table "fans", force: :cascade do |t|
     t.string   "name"
@@ -20,6 +20,38 @@ ActiveRecord::Schema.define(version: 20160514235009) do
     t.string   "birthday"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "items", force: :cascade do |t|
+    t.string   "name"
+    t.decimal  "price"
+    t.string   "description"
+    t.string   "size"
+    t.string   "color"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.string   "photo"
+  end
+
+  create_table "shows", force: :cascade do |t|
+    t.string   "date"
+    t.string   "venue"
+    t.string   "city"
+    t.string   "tickets"
+    t.string   "directions"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string   "age"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "password_hash"
+    t.string   "password_salt"
+    t.integer  "age"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
 end

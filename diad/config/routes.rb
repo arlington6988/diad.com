@@ -12,6 +12,11 @@ Rails.application.routes.draw do
   get 'diad/store' => 'diad#store'
   get 'diad/products' => 'diad#items'
   get 'diad/photos' => 'diad#photos'
+  get "/log-in" => "sessions#new"
+  post "/log-in" => "sessions#create"
+  get "/log-out" => "sessions#destroy", as: :log_out
+  resources :users
+  post "users/new" => "users#create"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
