@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'diad/musicsimple' => 'diad#musicsimple'
   get 'diad/videos' => 'diad#videos'
   get 'diad/store' => 'diad#store'
+  get 'diad/store/addtocart' => 'diad#itemtocart'
   post "/diad/store/checkout" => "charges#charge_card"
   get 'diad/products' => 'diad#items'
   get 'diad/photos' => 'diad#photos'

@@ -63,4 +63,8 @@ PRODUCT_COST = {
       redirect_to log_in_path
     end
   end
+
+  def additemtocart
+    Item.additem(params[:id], '1')
+  end
 end

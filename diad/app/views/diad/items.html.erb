@@ -50,7 +50,9 @@
   </nav>
 </head>
 <body class="navbargrey topspace">
-      <% @items.each do |i| %>
+<p id="notice" class="fontset"><%= notice %></p>
+<p><%= @total %></p>
+      <% @items.each.first(5).each do |i| %>
               <div class="container-fluid col-md-4">
                 <div class="row text-sm-center fontset">
 
@@ -58,8 +60,9 @@
                   <img src="http://placehold.it/200x200" alt="..." class="img-responsive"/>
                   <p><%= i.description %><br>
                   $<%= i.price %></p>
-                <%= form_tag("/search", method: "get", :class => 'fieldfont') do %>
-                    <%= number_field(:q, "Quantity", value: "1") %><br>
+                <%= form_tag(diad_store_addtocart_path, method: "get", :class => 'fieldfont') do %>
+                    <%= number_field(:quantity, params[:quantity] ) %><br>
+                    <%= hidden_field(:itemid, params[:itemid], value: i.id) %><br>
                     <%= submit_tag("Add To Cart", id: "cartadd", :class => 'btn-store btn-sm fontset') %>
                 <% end %>
                 </div>

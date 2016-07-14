@@ -1,4 +1,4 @@
 class Cart < ActiveRecord::Base
-  has_many :cartitems
-  serialize :items
+  belongs_to :user
+  has_many :items
 end

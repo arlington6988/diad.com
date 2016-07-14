@@ -3,6 +3,7 @@ class User < ActiveRecord::Base
   validates_confirmation_of :password
   before_save :encrypt_password
   has_one :cart
+  has_many :items, through: :cart
 
 def encrypt_password
   self.password_salt = BCrypt::Engine.generate_salt
