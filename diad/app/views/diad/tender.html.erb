@@ -13,7 +13,7 @@
       inputClass: 'sq-input',
       inputStyles: [
         {
-          fontSize: '15px'
+          fontSize: '30px'
         },
       ],
       cardNumber: {
@@ -86,8 +86,6 @@
       border: 0px solid rgb(223, 223, 223);
       outline-offset: -2px;
       margin-bottom: 5px;
-      margin-left: 30%;
-      margin-right: 30%;
     }
     .sq-input--focus {
       /* how your inputs should appear when they have focus */
@@ -100,52 +98,29 @@
   </style>
 </head>
 <body class="navbargrey">
-      <div class="fontset">
-        <table class="table table-condensed">
-          <thead>
-          <tr>
-            <th style="width:50%">Product</th>
-            <th style="width:10%">Price</th>
-            <th style="width:8%">Quantity</th>
-            <th style="width:22%" class="text-center">Subtotal</th>
-            <th style="width:10%"></th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td data-th="Product">
-              <div class="row">
-                <div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
-                <div class="col-sm-10">
-                  <h4 class="nomargin"><%= Item.first.name %></h4>
-                  <p><%= Item.first.description %></p>
-                </div>
-              </div>
-            </td>
-            <td data-th="Price">$1.99</td>
-            <td data-th="Quantity">
-              <input type="number" class="form-control text-center" value="1">
-            </td>
-            <td data-th="Subtotal" class="text-center">1.99</td>
-            <td class="actions" data-th="">
-              <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-              <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-            </td>
-          </tr>
-          </tbody>
-         </table>
-      </div>
+   <div class="jumbotron jumbotron-sized jumbotron-align">
+    <%= label_tag 'Shipping Address:', :shippingaddress, :class => 'pull-left' %>
+   </div>
+   <div class="jumbotron jumbotron-sized jumbotron-align">
+    <div class="container">
+      <%= label_tag 'Cart Total:', nil, :class => 'pull-left' %>
+      <%= text_field_tag :total, nil, :value => @displaytotal, :class => 'pull-left fieldfont', :disabled => 'true' %><br><br>
       <div class="sq-input">
       <label>Card Number</label>
-      <div id="sq-card-number"></div>
+      <div id="sq-card-number">
+      </div>
       <label>CVV</label>
-      <div id="sq-cvv"></div>
+      <div id="sq-cvv">
+      </div>
       <label>Expiration Date</label>
-      <div id="sq-expiration-date"></div>
+      <div id="sq-expiration-date">
+      </div>
       <label>Postal Code</label>
-      <div id="sq-postal-code"></div>
+      <div id="sq-postal-code">
+      </div>
 
-      <button class="btn-primary" type="submit" onclick="requestCardNonce()">Confirm</button>
+      <button class="btn-primary" type="submit" onclick="requestCardNonce()">PAY</button>
+        </div>
         </div>
 <!--      <form id="form" novalidate method="post">
       <input type="hidden" id="card-nonce" name="nonce">
@@ -156,9 +131,10 @@
         <%= text_field_tag :card_nonce, nil, :class => "sr-only" %>
         <%= submit_tag 'Confirm', method: 'POST', remote: :true, :class => "sr-only" %>
         <% end %>
+
         </div>
 
-
+      </div>
       <div id="errors"></div>
 
 </body>

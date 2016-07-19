@@ -8,7 +8,7 @@ def create
    @user = User.authenticate(params[:email], params[:password])
  if @user
    #let the user know they've been logged in with a flash message
-   flash[:notice] = "You've been logged in."
+   flash[:notice] = "Logged in as #{@user.name} "
    #THIS IS THE MOST IMPORTANT PART. Actually log the user in by storing their ID in the session hash with the [:user_id] key!
    session[:user_id] = @user.id
   #then redirect them to the homepage
@@ -22,7 +22,7 @@ end
 
 def destroy
   session[:user_id] = nil
-  flash[:notice] = "You've been logged out successfully."
+  flash[:notice] = "Logged out."
   redirect_to root_path
 end
 

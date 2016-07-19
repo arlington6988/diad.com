@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  */
-
 .navbar-nav {
     font-family: 'usis_1949regular', 'fantasy';
     font-size: 12pt;
@@ -27,6 +26,14 @@
 
 .fieldfont {
   font-family: 'usis_1949regular', 'fantasy'; color: black;
+}
+
+.centerfield {
+  margin: 0 auto;
+  float: none;
+}
+
+.sq-input {
 }
 
 
@@ -97,6 +104,11 @@
 .topspace {
   margin-top: 5%;
 }
+
+.topspacedeep {
+  margin-top: 10%;
+}
+
 
 .redtext {
   font-family: 'usis_1949regular', 'fantasy'; color: red;

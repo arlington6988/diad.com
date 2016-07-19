@@ -20,7 +20,9 @@
         <%= text_field_tag 'zip', nil, placeholder: 'Zipcode', size: 6, class: 'form-control-xsm form-email' %>
         <%= submit_tag "Get Updates!", onclick: "alertify.success('Got it! We will be in touch.', function() {},'popup1');", class: 'btn btn-default btn-sm btn-email' %>
     <% end %>
+    <% unless current_user.nil? %>
     <%= button_to "Logout", log_out_path, class: "btn btn-default btn-sm btn-email topcorner", method: :get %>
+        <% end %>
     <script>
       $("#fanbridgesignup").bind("ajax:send", function(e){
         $("#firstname").val('');
@@ -38,19 +40,17 @@
             <%= link_to "Videos", root_path %>
             <%= link_to "Photos", diad_photos_path %>
             <%= link_to "Store", diad_products_path %>
-            <%= link_to '', "https://www.facebook.com/deathisadialogue", :class => "fa fa-facebook navbar-right", :target => '_blank' %>
-            <%= link_to '', "https://www.twitter.com/deathisadialog", :class=> "fa fa-twitter navbar-right", :target => '_blank' %>
-            <%= link_to '', "https://play.spotify.com/album/5LfJ9J6lwySoakYxnlqXOH", :class=> "fa fa-spotify navbar-right", :target => '_blank' %>
-            <%= link_to '', "https://www.instagram.com/jasonleediad", :class=> "fa fa-instagram navbar-right", :target => '_blank' %>
-            <%= link_to '', "https://www.youtube.com/user/Deathisadialogue/videos", :class=> "fa fa-youtube navbar-right", :target => '_blank' %>
+            <span class="pull-lg-right fontset">
+            <%= link_to 'Cart/Checkout', diad_store_viewcart_path, :class=> "fa fa-shopping-cart navbar-right fa-5x", :target => '_blank' %>
+            </span>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </head>
+<p id="notice" class="fontset topspacedeep"><%= notice %></p>
 <body class="navbargrey topspace">
-<p id="notice" class="fontset"><%= notice %></p>
 <p><%= @total %></p>
       <% @items.each.first(5).each do |i| %>
               <div class="container-fluid col-md-4">
@@ -59,7 +59,8 @@
                   <h4><%= i.name %></h4>
                   <img src="http://placehold.it/200x200" alt="..." class="img-responsive"/>
                   <p><%= i.description %><br>
-                  $<%= i.price %></p>
+                  <%= i.displayprice %>
+                  </p>
                 <%= form_tag(diad_store_addtocart_path, method: "get", :class => 'fieldfont') do %>
                     <%= number_field(:quantity, params[:quantity] ) %><br>
                     <%= hidden_field(:itemid, params[:itemid], value: i.id) %><br>

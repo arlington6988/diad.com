@@ -9,8 +9,9 @@ Rails.application.routes.draw do
   get 'diad/music' => 'diad#music'
   get 'diad/musicsimple' => 'diad#musicsimple'
   get 'diad/videos' => 'diad#videos'
-  get 'diad/store' => 'diad#store'
+  get 'diad/store/viewcart' => 'diad#viewcart'
   get 'diad/store/addtocart' => 'diad#itemtocart'
+  get 'diad/store/tender' => 'diad#tender'
   post "/diad/store/checkout" => "charges#charge_card"
   get 'diad/products' => 'diad#items'
   get 'diad/photos' => 'diad#photos'

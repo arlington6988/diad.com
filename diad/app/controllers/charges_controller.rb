@@ -55,8 +55,11 @@ PRODUCT_COST = {
 
     # send receipt email to user
     ReceiptMailer.charge_email(params[:email],data).deliver_now if Rails.env == "development"
-    
+    @current_user.cart.items.delete_all
+    @current_user.cart.total = 0
+    @current_user.cart.save
     render json: {:status => 200}
+
   end
   def checklogin
     unless current_user
