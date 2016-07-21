@@ -24,9 +24,11 @@ class DiadController < ApplicationController
   end
 
   def viewcart
-    itemsincart = current_user.cart.items.count
-    if itemsincart.nil? or itemsincart == '0'
-      redirect_to diad_products_path, notice: "You have no items in the cart to view, add something."
+    @items = current_user.cart.items
+    itemsincart = @items.count
+    if itemsincart == 0
+      flash[:notice] = "No items in cart."
+      redirect_to diad_products_path
     end
   end
 
@@ -39,7 +41,9 @@ class DiadController < ApplicationController
   def itemtocart
       params[:cartid] = current_user.cart.id
       quantity = params[:quantity]
-
+      if quantity[0] == ""
+        quantity[0] = 1
+      end
     @total = Item.additem(params[:itemid], quantity[0], params[:cartid])
     redirect_to diad_products_path, notice: "Successfully Added to Cart"
   end
@@ -70,9 +74,14 @@ class DiadController < ApplicationController
   end
 
   def tender
+    if current_user.cart.total.to_i > 99
     @total = current_user.cart.total.to_i
     @total = @total.to_s.scan(/./)
     @displaytotal = @total[0..-3].join + '.' + @total[-2..-1].join
+    else
+      flash[:notice] = 'No items in cart.'
+      redirect_to diad_products_path
+      end
   end
 
   def videos

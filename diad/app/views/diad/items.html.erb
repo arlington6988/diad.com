@@ -41,17 +41,18 @@
             <%= link_to "Photos", diad_photos_path %>
             <%= link_to "Store", diad_products_path %>
             <span class="pull-lg-right fontset">
-            <%= link_to 'Cart/Checkout', diad_store_viewcart_path, :class=> "fa fa-shopping-cart navbar-right fa-5x", :target => '_blank' %>
+            <%= link_to 'Cart/Checkout', diad_store_viewcart_path, :class=> "fa fa-shopping-cart navbar-right fa-5x" %>
             </span>
+            <%= text_field_tag 'Total', nil, :size => '6', value: @total, class: 'fieldfont pull-right pull-lg-right', disabled: 'true' %>
+            <%= label_tag 'Total:', nil, class: 'fontset pull-right pull-lg-right' %>
+            <div id="notice" class="pull-right fontset"><%= notice %></div>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </head>
-<p id="notice" class="fontset topspacedeep"><%= notice %></p>
 <body class="navbargrey topspace">
-<p><%= @total %></p>
       <% @items.each.first(5).each do |i| %>
               <div class="container-fluid col-md-4">
                 <div class="row text-sm-center fontset">

@@ -6,7 +6,7 @@ end
 def create
   @user = User.new(user_params)
   if @user.save
-      flash[:notice] = "Account Created! Please login."
+      flash[:alert] = "Account Created! Please login."
       redirect_to log_in_path
   else
       flash[:alert] = "There was a problem creating your account. Please try again."
