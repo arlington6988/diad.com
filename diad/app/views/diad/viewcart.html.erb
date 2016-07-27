@@ -8,7 +8,47 @@
   <%= favicon_link_tag 'favicon.png' %>
 </head>
 <body class="navbargrey">
-      <div class="fontset">
+<div class="container">
+        <div class="topspace fieldfont pull-right fontset">
+        <div class="form-group">
+          <table>
+            <thead>
+            </thead>
+            <tbody>
+            <tr>
+          <%= label_tag 'SubTotal:', nil, class: "fontset" %>
+          <%= text_field_tag 'Total', nil, size: 10, value: @total, disabled: true %>
+              </tr>
+            <br>
+            <tr>
+            <%= label_tag 'Tax:', nil, class: "fontset" %>
+            <%= text_field_tag 'tax', nil, size: 10, value: @tax, disabled: true, class: "pull-right" %>
+              </tr>
+            <br>
+            <tr>
+              <%= label_tag 'Total:', nil, class: "fontset" %>
+              <%= text_field_tag 'Total', nil, size: 10, value: @subtotal, disabled: true, class: "pull-right" %>
+            </tr>
+            <br>
+            <tr>
+              <%= label_tag 'Shipping:', nil, class: "fontset" %>
+              <%= text_field_tag 'Shipping', nil, size: 10, value: @shipping, disabled: true, class: "pull-right" %>
+            </tr>
+            <br>
+            <tr>
+
+            </tr>
+            </tbody>
+            </table>
+           <span class="container topspacedeep">
+                <%= button_to 'Checkout', diad_store_tender_path, method: :get, :class => 'btn-danger btn-xs fieldfont pull-right' %>
+             <%= button_to 'Cancel', diad_products_path, method: :get, :class => 'btn-warning btn-xs fieldfont' %>
+                </span>
+        </div>
+        </div>
+          <div class="col-xs-2">
+          </div>
+
         <table class="table table-condensed">
           <thead>
           <tr>
@@ -26,8 +66,8 @@
               <div class="row">
                 <div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
                 <div class="col-sm-10">
-                  <h4 class="nomargin"><%= i.name %></h4>
-                  <p><%= i.description %></p>
+                  <h4 class="nomargin bumpright"><%= i.name %></h4>
+                  <p class="bumpright"><%= i.description %></p>
                 </div>
               </div>
             </td>
@@ -37,16 +77,17 @@
             </td>
             <td data-th="Subtotal" class="text-center"><%= i.displayprice %></td>
             <td class="actions" data-th="">
-              <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-              <%= button_to '#', nil, :class => "btn btn-danger btn-sm fa fa-trash-o" %>
-              <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+              <%= link_to raw("<i class=\"fa fa-trash-o\"></i>"),
+                          diad_store_rmfromcart_path(id: i.id),
+                          class: "btn btn-danger btn-sm",
+                          method: :get %>
             </td>
           </tr>
               <% end %>
+          </div>
           </tbody>
          </table>
       </div>
-        <%= button_to 'Confirm', diad_store_tender_path, method: :get, :class => "btn-primary" %>
 
       <div id="errors"></div>
 

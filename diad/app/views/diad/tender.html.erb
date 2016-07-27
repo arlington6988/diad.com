@@ -126,14 +126,26 @@
       <input type="hidden" id="card-nonce" name="nonce">
       <input type="submit" onclick="submitButtonClick(event)" id="card-nonce">
       </form> -->
+      <div class="form-group">
         <div id="card-nonce">
         <%= form_tag diad_store_checkout_path, id: "number", multipart: true do %>
-        <%= text_field_tag :card_nonce, nil, :class => "sr-only" %>
+        <%= text_field_tag :card_nonce, nil, :class => "sr-only" %><br>
+        <%= label_tag 'Name:', nil, :class => 'fontset' %><br>
+        <%= text_field_tag :name, nil, :class => "fieldfont" %><br>
+        <%= label_tag 'Shipping Address:', nil, :class => 'fontset' %><br>
+        <%= text_field_tag :street_address_1, nil, :class => "fieldfont" %><br>
+        <%= text_field_tag :street_address_2, nil, :class => "fieldfont" %><br>
+        <%= label_tag 'City:', nil, :class => 'fontset' %><br>
+        <%= text_field_tag :city, nil, :class => "fieldfont" %><br>
+        <%= label_tag 'State:', nil, :class => 'fontset' %><br>
+        <%= text_field_tag :state, nil, :class => "fieldfont" %><br>
+        <%= label_tag 'Zip:', nil, :class => 'fontset' %><br>
+        <%= text_field_tag :zip, nil, :class => "fieldfont" %><br>
         <%= submit_tag 'Confirm', method: 'POST', remote: :true, :class => "sr-only" %>
         <% end %>
-
         </div>
 
+        </div>
       </div>
       <div id="errors"></div>
 

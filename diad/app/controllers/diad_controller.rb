@@ -26,9 +26,42 @@ class DiadController < ApplicationController
   def viewcart
     @items = current_user.cart.items
     itemsincart = @items.count
-    if itemsincart == 0
+    puts "items in cart is here:"
+    puts itemsincart
+    unless itemsincart.to_i > 0
       flash[:notice] = "No items in cart."
       redirect_to diad_products_path
+    end
+    cartid = current_user.cart.id
+    @total, @subtotal, @tax, @shipping = Item.rmitem(cartid)
+    puts "subtotal is here:"
+    puts @subtotal
+    puts "Tax is here:"
+    puts @tax
+    puts "shipping is here:"
+    puts @shipping
+    if @tax.to_i > 99
+      @tax = @tax.to_i.to_s.scan(/./)
+      @tax = @tax[0..-3].join + '.' + @tax[-2..-1].join
+    else
+       @tax = @tax.to_i.to_s
+       @tax = '0' + '.' + @tax
+    end
+    @tax = '$' + @tax
+      if @subtotal.to_i > 99
+        @subtotal = @subtotal.to_i.to_s.scan(/./)
+        @subtotal = @subtotal[0..-3].join + '.' + @subtotal[-2..-1].join
+      end
+        @subtotal = '$' + @subtotal.to_s
+    if current_user.cart.total.to_i > 99
+      @total = current_user.cart.total.to_i.to_s.scan(/./)
+      @total = @total[0..-3].join + '.' + @total[-2..-1].join
+    end
+    @total = '$' + @total.to_s
+    if @shipping.to_i > 99
+      @shipping = @shipping.to_i.to_s.scan(/./)
+      @shipping = @shipping[0..-3].join + '.' + @shipping[-2..-1].join
+      @shipping = '$' + @shipping.to_s
     end
   end
 
@@ -64,20 +97,37 @@ class DiadController < ApplicationController
          @total = current_user.cart.total.to_i
        end
     else
-      @total = "Cart is empty, not logged in."
+      @total = 0
     end
   end
 
-  def rmitemfromcart
-      item = Item.find_by_id(params[:item]).delete
-      redirect_to diad_store_viewcart
+  def rmfromcart
+       puts "I'm inside of rmfromcart now"
+       cartid = current_user.cart.id
+      item = Item.find_by_id(params[:id]).delete
+       @total, @subtotal, @tax, @shipping = Item.rmitem(cartid)
+       if @total.to_i > 0
+      redirect_to diad_store_viewcart_path
+       else
+         flash[:notice] = "Cart is empty, pick your poison."
+         redirect_to diad_products_path
+         end
   end
 
   def tender
     if current_user.cart.total.to_i > 99
-    @total = current_user.cart.total.to_i
+#    @total = current_user.cart.total.to_i
+      cartid = current_user.cart.id
+      @total, @subtotal, @tax, @shipping = Item.rmitem(cartid)
+      puts "debug---"
+      puts @total
+      puts @subtotal
+      puts @tax.to_i
+      puts @shipping
+      puts "debug----"
+     @total = (@total.to_i + @tax.to_i + @shipping.to_i)
     @total = @total.to_s.scan(/./)
-    @displaytotal = @total[0..-3].join + '.' + @total[-2..-1].join
+    @displaytotal = '$' + @total[0..-3].join + '.' + @total[-2..-1].join
     else
       flash[:notice] = 'No items in cart.'
       redirect_to diad_products_path

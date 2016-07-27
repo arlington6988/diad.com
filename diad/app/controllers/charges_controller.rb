@@ -16,7 +16,14 @@ PRODUCT_COST = {
    #   return
    # end
 #    amount = PRODUCT_COST[params[:cart_id]]
+    #amount = @current_user.cart.total.to_i
+    items = @current_user.cart.items.count
     amount = @current_user.cart.total.to_i
+    tax = (amount * 0.07)
+    amount = (tax.to_i + amount)
+    shipping = items * 100
+    amount = (amount + shipping)
+
     request_body = {
       :card_nonce => params[:card_nonce],
       :amount_money => {
@@ -54,11 +61,14 @@ PRODUCT_COST = {
     }
 
     # send receipt email to user
-    ReceiptMailer.charge_email(params[:email],data).deliver_now if Rails.env == "development"
+#    ReceiptMailer.charge_email(params[:email],data).deliver_now if Rails.env == "development"
+    ReceiptMailer.send_receipt(params[:email], data, @current_user).deliver_now
     @current_user.cart.items.delete_all
     @current_user.cart.total = 0
     @current_user.cart.save
-    render json: {:status => 200}
+
+   # render json: {:status => 200}
+     redirect_to root_url
 
   end
   def checklogin
