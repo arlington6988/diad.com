@@ -35,7 +35,7 @@
       <div class="container">
         <ul class="nav nav-bar navbar-nav">
           <li ><%= link_to "News", root_path %>
-            <%= link_to "Tour", :anchor => 'tour' %>
+            <%= link_to "Tour", root_path %>
             <%= link_to "Music", diad_music_path %>
             <%= link_to "Videos", root_path %>
             <%= link_to "Photos", diad_photos_path %>
@@ -53,7 +53,7 @@
   </nav>
 </head>
 <body class="navbargrey topspace">
-      <% @items.each.first(5).each do |i| %>
+      <% @items.each.first(2).each do |i| %>
               <div class="container-fluid col-md-4">
                 <div class="row text-sm-center fontset">
 
@@ -63,8 +63,8 @@
                   <%= i.displayprice %>
                   </p>
                 <%= form_tag(diad_store_addtocart_path, method: "get", :class => 'fieldfont') do %>
-                    <%= number_field(:quantity, params[:quantity] ) %><br>
-                    <%= hidden_field(:itemid, params[:itemid], value: i.id) %><br>
+                    <%= hidden_field(:quantity, params[:quantity] ) %>
+                    <%= hidden_field(:itemid, params[:itemid], value: i.id) %>
                     <%= submit_tag("Add To Cart", id: "cartadd", :class => 'btn-store btn-sm fontset') %>
                 <% end %>
                 </div>

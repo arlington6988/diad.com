@@ -16,6 +16,8 @@ Rails.application.routes.draw do
   post "/diad/store/checkout" => "charges#charge_card"
   get 'diad/products' => 'diad#items'
   get 'diad/photos' => 'diad#photos'
+  get 'diad/download' => 'diad#download'
+  get 'diad/about' => 'diad#about'
   get "/log-in" => "sessions#new"
   post "/log-in" => "sessions#create"
   get "/log-out" => "sessions#destroy", as: :log_out

@@ -80,8 +80,8 @@
               <td><%= show.venue %></td>
               <td><%= show.city %></td>
               <td><%= show.age %></td>
-              <td><%= link_to show.tickets, '#' %></td>
-              <td><%= button_to 'Buy', show.tickets, :class => 'btn-xs btn-sharp' %></td>
+              <td><%= link_to 'Center-Stage', show.directions, :target => "_blank" %></td>
+              <td><%= button_to 'Buy', show.directions, :class => 'btn-xs btn-sharp', form: {target: '_blank'} %></td>
             </tr>
               <% end %>
         </tbody>
@@ -129,8 +129,8 @@
 <footer class="modal-footer" >
   <div class="container">
    <span>Book a Show=></span><span class="textright container"><=Press Stuff</span><br>
-<%= mail_to 'arlington6988@yahoo.com', 'US Booking', subject: "US:ENTERDATE" %><span class="textright container"><%= link_to "Download", "#" %></span><br>
-<%= mail_to 'arlington6988@yahoo.com', 'EU Booking', subject: "EU:ENTERDATE" %><span class="textright container"><%= link_to "About", "#" %></span><br>
+<%= mail_to 'arlington6988@yahoo.com', 'US Booking', subject: "US:ENTERDATE" %><span class="textright container"><%= link_to "Download", diad_download_path %></span><br>
+<%= mail_to 'arlington6988@yahoo.com', 'EU Booking', subject: "EU:ENTERDATE" %><span class="textright container"><%= link_to "About", diad_about_path %></span><br>
 
   </div>
   </div

@@ -5,11 +5,26 @@
   </head>
   <body>
     <h1>Thanks for your purchase, <%= @user.name %></h1>
+     <% @items.each do |i| %>
+      <p>
+     <%= i.name %> - <%= i.description %> - <%= i.displayprice %><br>
+      </p>
+     <% end %>
+<p> Tax: <%= @tax %>
+</p> <p>
+       Shipping : <%= @shipping %>
+     </p>
     <p>
-      username: <%= @user.email %>.<br>
+      Total: <%= @body %><br>
     </p>
     <p>
-     <%= @body %>
+      Shipping Address:<br>
+      <%= @body2 %><br>
+      <%= @body3 %><br>
+      <% unless @body4.nil? or @body4.blank? %>
+      <%= @body4 %><br>
+      <% end %>
+      <%= @body9 %>
     </p>
     <p>
       To login to the site, just follow this link: https://deathisadialogue.com

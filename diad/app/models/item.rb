@@ -49,9 +49,9 @@ class Item < ActiveRecord::Base
         puts total
         puts "Subtotal should be below line:"
         tax = total.to_i * 0.07
-        subtotal = (total.to_i + tax.to_i)
-        puts subtotal
         shipping = @cart.items.count * 100
+        subtotal = (total.to_i + tax.to_i + shipping.to_i)
+        puts subtotal
        @cart.total = total
        @cart.save
       return total, subtotal, tax, shipping

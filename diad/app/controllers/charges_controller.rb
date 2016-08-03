@@ -62,7 +62,7 @@ PRODUCT_COST = {
 
     # send receipt email to user
 #    ReceiptMailer.charge_email(params[:email],data).deliver_now if Rails.env == "development"
-    ReceiptMailer.send_receipt(params[:email], data, @current_user).deliver_now
+    ReceiptMailer.send_receipt(params[:email], data, @current_user, tax, shipping).deliver_now
     @current_user.cart.items.delete_all
     @current_user.cart.total = 0
     @current_user.cart.save
@@ -77,7 +77,7 @@ PRODUCT_COST = {
     end
   end
 
-  def additemtocart
-    Item.additem(params[:id], '1')
-  end
+#  def additemtocart
+#    Item.additem(params[:id], '1')
+#  end
 end

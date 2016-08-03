@@ -10,6 +10,17 @@ class DiadController < ApplicationController
   def news
   end
 
+  def photos
+    @image_urls = Array.new
+    @image_urls = [ "mainpoolshotWEB.jpg" ]
+  end
+
+  def about
+  end
+
+  def download
+  end
+
   def tour
   end
 
