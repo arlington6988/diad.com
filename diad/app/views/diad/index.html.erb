@@ -81,7 +81,7 @@
               <td><%= show.city %></td>
               <td><%= show.age %></td>
               <td><%= link_to 'Center-Stage', show.directions, :target => "_blank" %></td>
-              <td><%= button_to 'Buy', show.directions, :class => 'btn-xs btn-sharp', form: {target: '_blank'} %></td>
+              <td><%= button_to 'Buy', "http://www.ticketalternative.com/event/death-is-a-dialogue", method: :get, :class => 'btn-xs btn-sharp', form: {target: '_blank'} %></td>
             </tr>
               <% end %>
         </tbody>

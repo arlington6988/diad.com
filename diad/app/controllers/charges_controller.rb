@@ -46,7 +46,6 @@ PRODUCT_COST = {
       return
     end
     puts resp
-    
     data = {
       amount: amount, 
       user: {
@@ -68,6 +67,7 @@ PRODUCT_COST = {
     @current_user.cart.save
 
    # render json: {:status => 200}
+     flash[:chargestatus] = "True"
      redirect_to root_url
 
   end

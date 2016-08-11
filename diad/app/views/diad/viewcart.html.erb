@@ -54,7 +54,6 @@
           <tr>
             <th style="width:50%">Product</th>
             <th style="width:10%">Price</th>
-            <th style="width:8%">Quantity</th>
             <th style="width:22%" class="text-center">Subtotal</th>
             <th style="width:10%"></th>
           </tr>
@@ -64,7 +63,7 @@
           <tr>
             <td data-th="Product">
               <div class="row">
-                <div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
+                <div class="col-sm-2 hidden-xs"><%= image_tag i.photo, class: "picsize" %></div>
                 <div class="col-sm-10">
                   <h4 class="nomargin bumpright"><%= i.name %></h4>
                   <p class="bumpright"><%= i.description %></p>
@@ -72,9 +71,6 @@
               </div>
             </td>
             <td data-th="Price"><%= i.displayprice %></td>
-            <td data-th="Quantity">
-              <input type="number" class="form-control text-center" value="quantityhere">
-            </td>
             <td data-th="Subtotal" class="text-center"><%= i.displayprice %></td>
             <td class="actions" data-th="">
               <%= link_to raw("<i class=\"fa fa-trash-o\"></i>"),

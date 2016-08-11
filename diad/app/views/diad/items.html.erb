@@ -58,7 +58,8 @@
                 <div class="row text-sm-center fontset">
 
                   <h4><%= i.name %></h4>
-                  <img src="http://placehold.it/200x200" alt="..." class="img-responsive"/>
+<!--                  <img src="http://placehold.it/200x200" alt="..." class="img-responsive"/> -->
+                  <%= image_tag i.photo, :class => "img-responsive" %>
                   <p><%= i.description %><br>
                   <%= i.displayprice %>
                   </p>
