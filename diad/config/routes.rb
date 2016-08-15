@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'diad/store/viewcart' => 'diad#viewcart'
   get 'diad/store/addtocart' => 'diad#itemtocart'
   get 'diad/store/tender' => 'diad#tender'
+  get 'diad/store/thankyou' => 'diad#thankyou'
   post "/diad/store/checkout" => "charges#charge_card"
   get 'diad/products' => 'diad#items'
   get 'diad/photos' => 'diad#photos'

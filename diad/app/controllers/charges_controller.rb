@@ -67,8 +67,8 @@ PRODUCT_COST = {
     @current_user.cart.save
 
    # render json: {:status => 200}
-     flash[:chargestatus] = "True"
-     redirect_to root_url
+    flash[:notice] = "You Rule."
+     redirect_to diad_store_thankyou_path
 
   end
   def checklogin

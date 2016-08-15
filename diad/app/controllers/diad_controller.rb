@@ -148,6 +148,9 @@ class DiadController < ApplicationController
   def videos
   end
 
+  def thankyou
+  end
+
   def checklogin
     unless current_user 
       redirect_to log_in_path

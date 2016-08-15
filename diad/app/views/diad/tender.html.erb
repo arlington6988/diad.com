@@ -36,6 +36,7 @@
           if (errors) {
             // handle errors
             errors.forEach(function(error) { console.log(error.message); });
+            alertify.error('There was an error processing your card information.  Please try again.', function() {},'popup1');
           } else {
             // handle nonce
             //alert('Nonce received! ' + nonce + ' ' + JSON.stringify(cardData));
