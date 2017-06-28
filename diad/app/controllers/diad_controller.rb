@@ -2,6 +2,8 @@ require 'useragent'
 
 class DiadController < ApplicationController
   before_action :checklogin, only: [ :viewcart, :itemtocart ]
+  force_ssl only: [ :viewcart, :itemtocart, :tender, :rmfromcart ]
+
 
   def index
     @shows = Show.all
@@ -85,11 +87,12 @@ class DiadController < ApplicationController
   def itemtocart
       params[:cartid] = current_user.cart.id
       quantity = params[:quantity]
+      params[:size] ||= nil
       if quantity[0] == ""
         quantity[0] = 1
       end
-    @total = Item.additem(params[:itemid], quantity[0], params[:cartid])
-    redirect_to diad_products_path, notice: "Successfully Added to Cart"
+      @total = Item.additem(params[:itemid], quantity[0], params[:cartid], params[:size])
+      redirect_to diad_products_path, notice: "Successfully Added to Cart"
   end
 
   def items

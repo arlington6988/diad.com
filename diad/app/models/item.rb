@@ -1,7 +1,7 @@
 class Item < ActiveRecord::Base
    belongs_to :cart
 
-  def self.additem(itemid, quantity, cartid)
+  def self.additem(itemid, quantity, cartid, size)
     params = Hash.new
     total = 0
     subtotal = 0
@@ -11,6 +11,7 @@ class Item < ActiveRecord::Base
       quantity.times {
         params[:cart_id] = cartid
         params[:id] = itemid
+        params[:size] = size unless size.nil?
         @product = Item.find_by_id(params[:id]).dup
         @product.update(params)
       }

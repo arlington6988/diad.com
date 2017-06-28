@@ -7,7 +7,10 @@
     <h1>Thanks for your purchase, <%= @user.name %></h1>
      <% @items.each do |i| %>
       <p>
-     <%= i.name %> - <%= i.description %> - <%= i.displayprice %><br>
+     <%= i.name %> - <%= i.description %> - <%= i.displayprice %> <br>
+     <% unless i.size.nil? %>
+      Size: <%= i.size %><br>
+      <% end %>
       </p>
      <% end %>
 <p> Tax: <%= @tax %>

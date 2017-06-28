@@ -9,7 +9,8 @@
   <script type="text/javascript" src="https://js.squareup.com/v2/paymentform"></script>
   <script>
     var paymentForm = new SqPaymentForm({
-      applicationId: 'sandbox-sq0idp-YIDR4JFlIVezYhbQtF3eSA', // <-- Add your application ID here
+//      applicationId: 'sandbox-sq0idp-YIDR4JFlIVezYhbQtF3eSA', // <-- Add your application ID here
+      applicationId: 'sq0idp-YIDR4JFlIVezYhbQtF3eSA', // <-- Add your application ID here
       inputClass: 'sq-input',
       inputStyles: [
         {
@@ -42,6 +43,16 @@
             //alert('Nonce received! ' + nonce + ' ' + JSON.stringify(cardData));
             // Assign the value of the nonce to a hidden form element
             var nonceField = document.getElementById("card_nonce");
+            var nameField = document.getElementById("name");
+            var addressField = document.getElementById("street_address_1");
+            var cityField = document.getElementById("city");
+            var stateField = document.getElementById("state");
+            var zipField = document.getElementById("zip");
+            if (nameField.value==null || nameField.value=="",addressField.value==null || addressField.value=="",cityField.value==null || cityField.value=="",stateField.value==null || stateField.value=="",zipField.value==null || zipField.value=="")
+            {
+            alertify.error('Please fill out required shipping information.');
+            return false;
+            }
             nonceField.value = nonce;
             // Submit the form
             console.log('Nonce received!');

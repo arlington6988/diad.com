@@ -52,9 +52,6 @@
 <div class="jumbotron jumbotron-sized jumboalign">
   <div class="bg">
   </div>
-  <div class="content container">
-    <%= image_tag("albummockup2.png", :class => 'albumautoscale') %>
-    <h1>Coming Soon: Call of the Siren</h1>
     <div id="tour"></div>
   </div>
 </div>
@@ -80,8 +77,8 @@
               <td><%= show.venue %></td>
               <td><%= show.city %></td>
               <td><%= show.age %></td>
-              <td><%= link_to 'Center-Stage', show.directions, :target => "_blank" %></td>
-              <td><%= button_to 'Buy', "http://www.ticketalternative.com/event/death-is-a-dialogue", method: :get, :class => 'btn-xs btn-sharp', form: {target: '_blank'} %></td>
+              <td><%= link_to 'Directions', show.directions, :target => "_blank" %></td>
+              <td><%= button_to 'Buy', show.tickets, method: :get, :class => 'btn-xs btn-sharp', form: {target: '_blank'} %></td>
             </tr>
               <% end %>
         </tbody>
@@ -89,7 +86,9 @@
     </div>
   </div>
 
-
+ <div class="content container">
+    <%= image_tag("albummockup2.png", :class => 'albumautoscale') %>
+ </div>
 
   <div id="video"></div>
   <div class="content">
@@ -98,9 +97,32 @@
 <div class="jumbotron jumbotron-sized jumboalign">
   <div class="bg">
   </div>
+  <div>Listen to tracks off Call of The Siren!</div>
+  <div class="content">
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/f5g3YRU3X0k" frameborder="0" allowfullscreen></iframe>
+  </div>
+ </div>
+ <div class="jumtotron jumbotron-sized jumboalign" >
+  <div class="content">
+   <iframe width="854" height="480" src="https://www.youtube.com/embed/HYiSgT6jQn0" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="jumbotron jumbotron-sized jumboalign">
+  <div class="bg">
+  </div>
+  <div class="content">
+   <iframe width="854" height="480" src="https://www.youtube.com/embed/pn5bX7yGQDs" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-sized jumboalign">
+  <div class="bg">
+  </div>
   <div>Lyric video submitted by a fan for a song off Call of the Siren.</div>
   <div class="content">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2AV8_IgRGK4" frameborder="0" allowfullscreen></iframe>
+    <iframe width="854" height="480" src="https://www.youtube.com/embed/2AV8_IgRGK4" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 

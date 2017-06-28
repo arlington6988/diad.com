@@ -53,7 +53,7 @@
   </nav>
 </head>
 <body class="navbargrey topspace">
-      <% @items.each.first(2).each do |i| %>
+      <% @items.each.first(4).each do |i| %>
               <div class="container-fluid col-md-4">
                 <div class="row text-sm-center fontset">
 
@@ -66,6 +66,9 @@
                 <%= form_tag(diad_store_addtocart_path, method: "get", :class => 'fieldfont') do %>
                     <%= hidden_field(:quantity, params[:quantity] ) %>
                     <%= hidden_field(:itemid, params[:itemid], value: i.id) %>
+		    <% unless i.size.nil? %>
+                      <%= select_tag :size, options_for_select([ "S", "M", "L", "XL" ]) %>
+                    <% end %>
                     <%= submit_tag("Add To Cart", id: "cartadd", :class => 'btn-store btn-sm fontset') %>
                 <% end %>
                 </div>

@@ -1,7 +1,5 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Item.create("name"=>"Call of the Siren", "price"=> 1000, "description"=>"10 song CD", "size"=>nil, "color"=>nil, "photo"=>"BattleShipThumbnail.png", "cart_id"=>nil, "displayprice"=>"$10.00")
+Item.create("name"=>"Offended Youth EP", "price"=> 500, "description"=>"5 Song Debut EP", "size"=>nil, "color"=>nil, "photo"=>"OffendedYouthThumbnail.png", "cart_id"=>nil, "displayprice"=>"$5.00")
+Item.create("name"=>"Call of the Siren Tee", "price"=> 2000, "description"=>"White tee by American Apparel (unisex)", "size"=>"M", "color"=>nil, "photo"=>"boyshirt.jpg", "cart_id"=>nil, "displayprice"=>"$20.00")
+Item.create("name"=>"Call of the Siren Tee", "price"=> 2000, "description"=>"White tee by American Apparel (ladies)", "size"=>"M", "color"=>nil, "photo"=>"girlshirt.jpg", "cart_id"=>nil, "displayprice"=>"$20.00")
+Show.create("date"=>"September 24", "venue"=>"Vinyl", "city"=>"Atlanta, GA", "tickets"=>"$10", "directions"=>"https://order.ticketalternative.com/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3ATAUSA4%3AR16%3ADEA0924%3A&linkID=ta-multiclient", "age"=>"18+")

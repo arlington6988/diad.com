@@ -40,7 +40,7 @@ Rails.application.configure do
       :port                 => 465,
       :domain               => "gmail.com",
       :user_name            => "deathisadialogue1@gmail.com",
-      :password             =>  ENV['GMAILPW'],
+      :password             =>  ENV['http_GMAILPW'],
       :authentication       => "plain",
       :enable_starttls_auto => true,
       :ssl                  => true

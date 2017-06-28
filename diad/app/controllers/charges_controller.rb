@@ -1,5 +1,7 @@
 class ChargesController < ApplicationController
 before_action :checklogin
+force_ssl only: [ :charge_card ]
+
 
 PRODUCT_COST = {
   "1" => 100,
@@ -17,13 +19,15 @@ PRODUCT_COST = {
    # end
 #    amount = PRODUCT_COST[params[:cart_id]]
     #amount = @current_user.cart.total.to_i
+    
     items = @current_user.cart.items.count
     amount = @current_user.cart.total.to_i
     tax = (amount * 0.07)
     amount = (tax.to_i + amount)
     shipping = items * 100
     amount = (amount + shipping)
-
+    
+    
     request_body = {
       :card_nonce => params[:card_nonce],
       :amount_money => {
@@ -77,7 +81,4 @@ PRODUCT_COST = {
     end
   end
 
-#  def additemtocart
-#    Item.additem(params[:id], '1')
-#  end
 end
